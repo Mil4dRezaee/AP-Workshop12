@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+<VBox fx:controller="com.game.ticTacToe.WelcomeController" xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="20"
+      prefWidth="400" prefHeight="300" style="-fx-background-color: #000000;"> <!-- Added background color -->
+
+    <!-- Title Label -->
+    <Label text="Welcome to Tic Tac Toe" styleClass="title-label" style="-fx-font-size: 2em; -fx-text-fill: #ffffff;"/>
+
+    <!-- Start Game Button -->
+    <Button fx:id="startGameButton" text="Start" onAction="#switchToTicTacToeController" styleClass="start-button"/>
+
+    <!-- Quit Game Button -->
+    <Button fx:id="quitButton" text="Quit" onAction="#quitGame" styleClass="quit-button"/>
+</VBox>

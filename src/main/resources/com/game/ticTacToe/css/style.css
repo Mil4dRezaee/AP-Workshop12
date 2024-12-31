@@ -1,0 +1,42 @@
+/* General Style */
+.root {
+    -fx-background-color: #000000; /* Global black background */
+}
+
+/* Title Label */
+.title-label {
+    -fx-font-size: 2em;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+/* Tic Tac Toe Buttons */
+.tic-tac-toe-button, .start-button, .quit-button {
+    -fx-min-width: 100px;
+    -fx-min-height: 100px;
+    -fx-pref-width: 120px;
+    -fx-pref-height: 120px;
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #333333;
+    -fx-border-color: #777777;
+    -fx-border-width: 2;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-cursor: hand;
+}
+
+/* Button Hover Effect */
+.tic-tac-toe-button:hover, .start-button:hover, .quit-button:hover {
+    -fx-background-color: #555555;
+}
+
+/* Status Label */
+#statusLabel {
+    -fx-font-size: 1.5em;
+    -fx-text-fill: #cccccc;
+    -fx-font-style: italic;
+    -fx-alignment: center;
+}

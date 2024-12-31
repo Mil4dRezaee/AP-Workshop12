@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane fx:controller="com.game.ticTacToe.TicTacToeController" xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10"
+          style="-fx-background-color: #000000;"> <!-- Added background color -->
+
+    <!-- Title Label -->
+    <Label text="Tic Tac Toe" GridPane.columnSpan="3" GridPane.halignment="CENTER" style="-fx-font-size: 2em; -fx-font-weight: bold; -fx-text-fill: #ffffff;"/>
+
+    <!-- Game Buttons -->
+    <Button fx:id="btn1" onAction="#handleButtonClick" GridPane.rowIndex="1" GridPane.columnIndex="0" styleClass="tic-tac-toe-button"/>
+    <Button fx:id="btn2" onAction="#handleButtonClick" GridPane.rowIndex="1" GridPane.columnIndex="1" styleClass="tic-tac-toe-button"/>
+    <Button fx:id="btn3" onAction="#handleButtonClick" GridPane.rowIndex="1" GridPane.columnIndex="2" styleClass="tic-tac-toe-button"/>
+    <Button fx:id="btn4" onAction="#handleButtonClick" GridPane.rowIndex="2" GridPane.columnIndex="0" styleClass="tic-tac-toe-button"/>
+    <Button fx:id="btn5" onAction="#handleButtonClick" GridPane.rowIndex="2" GridPane.columnIndex="1" styleClass="tic-tac-toe-button"/>
+    <Button fx:id="btn6" onAction="#handleButtonClick" GridPane.rowIndex="2" GridPane.columnIndex="2" styleClass="tic-tac-toe-button"/>
+    <Button fx:id="btn7" onAction="#handleButtonClick" GridPane.rowIndex="3" GridPane.columnIndex="0" styleClass="tic-tac-toe-button"/>
+    <Button fx:id="btn8" onAction="#handleButtonClick" GridPane.rowIndex="3" GridPane.columnIndex="1" styleClass="tic-tac-toe-button"/>
+    <Button fx:id="btn9" onAction="#handleButtonClick" GridPane.rowIndex="3" GridPane.columnIndex="2" styleClass="tic-tac-toe-button"/>
+
+    <!-- Status Label -->
+    <Label fx:id="statusLabel" GridPane.columnSpan="3" GridPane.rowIndex="4" GridPane.halignment="CENTER" style="-fx-font-size: 1.5em; -fx-text-fill: #cccccc; -fx-font-style: italic;"/>
+</GridPane>
